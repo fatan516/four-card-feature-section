@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+body{background-color: #f4f4f4;}
+
+.p{
+    font-size: 25px;
+    font-weight: 200;
+    color:  hsl(229, 4%, 51%);
+}
+
+.heading{
+    margin-top: 10px;
+    color:  hsl(230, 5%, 25%);
+}
+
+.phara{
+    margin-top: 25px;
+   color: rgb(96, 100, 100);
+  
+   
+   
+
+}
+
+.card{
+    margin-top: 50px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.box{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.container{ display: block;
+    margin: 0 auto;
+}
+.data{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    
+    text-align: left;
+}
+h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+img{
+    display: block;
+    padding-top: 30px;
+    padding-left: 270px;
+}
+.box.Supervisor{
+    display: inline-block;
+    border-top: 3px solid hsl(180, 62%, 55%);
+
+}
+.cards{
+    align-content: center;
+    display: inline-block;
+}
+.Calculator{
+    display: inline-block;
+}
+
+.box.teamBuilder{
+    border-top: 3px solid  hsl(0, 78%, 62%);
+   
+}
+
+.box.Karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    margin-top: 20px;
+}
+
